@@ -25,10 +25,11 @@ public class Principal {
      */
     public static void main(String[] args) {
         String binario = "";
+        System.out.println(rutaProyecto + separador + directorioInterno + separador + "CalculadoraBinario.jar");
 
             try {
 
-		Process conversor = new ProcessBuilder("java", "-jar",rutaProyecto + separador + directorioInterno + separador + "Conversor.jar").start();
+		Process conversor = new ProcessBuilder("java", "-jar",rutaProyecto + separador + directorioInterno + separador + "CalculadoraBinario.jar").start();
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(conversor.getInputStream()));
 
