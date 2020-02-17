@@ -26,6 +26,7 @@ public class Principal {
     public static void main(String[] args) {
         String binario = "";
         System.out.println(rutaProyecto + separador + directorioInterno + separador + "CalculadoraBinario.jar");
+        System.out.println("Prueba de git");
 
             try {
 
@@ -35,7 +36,7 @@ public class Principal {
 
 		PrintStream ps = new PrintStream(conversor.getOutputStream(), true);
 
-		int num = PideDatos.pideEntero("Â¿quÃ© nÃºmero quiere transformar a binario?");
+		int num = PideDatos.pideEntero("¿Qué número quiere transformar a binario?");
 
 		ps.println(Math.abs(num));
 
