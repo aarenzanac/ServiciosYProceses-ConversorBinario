@@ -1,5 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
+/*ENUNCIADO:
+ * 
+ * Crearemos un programa principal que preguntará un número por el teclado.
+
+- Creará el proceso hijo al que va enviar el número.
+
+- El proceso hijo recibe el número, lo convierte a binario y lo reenvia al proceso padre.
+
+- El proceso padre recibe el número convertido y lo visualiza por la pantalla.
+
+Los programas se pueden llamar Principal y conversor.
+*/
+
+
+/* To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -26,7 +39,7 @@ public class Principal {
     public static void main(String[] args) {
         String binario = "";
         System.out.println(rutaProyecto + separador + directorioInterno + separador + "CalculadoraBinario.jar");
-        System.out.println("Prueba de git");
+        System.out.println("Prueba de github");
 
             try {
 
